@@ -1,2 +1,0 @@
-# danielprisching.github.io
-VJP
