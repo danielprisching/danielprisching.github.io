@@ -4,13 +4,14 @@
 <head>
 
 	<title>Sähköä auringosta</title>
-	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
 	<link rel="shortcut icon" href="favicon.ico" />
 	<meta charset="UTF-8"> <!--Lisää ääkköset html sivulle-->
 	<meta name="author" content="Daniel Prisching" />
     <meta name="description" content="Solarenergy lipsum lapsum" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+    <script src="slideshow.js" type="text/javascript"></script>		
 </head>
 
 
@@ -42,8 +43,16 @@
 
 		</article>
 		<article id="uutiset">
-		<h1>Uutiset</h1>
-		<p>In ac nibh at lacus faucibus vestibulum. Vivamus maximus posuere lectus vitae tempor. Ut tempus in velit ac molestie. Cras at posuere velit. In condimentum turpis quis semper gravida. Aliquam nec nisl ligula. Sed sodales tortor dapibus purus elementum ullamcorper. Maecenas ultrices tincidunt nunc vel volutpat. Duis sollicitudin ex ligula, vel facilisis nunc rutrum non. Vestibulum neque ipsum, semper ac fringilla a, blandit id risus. </p>
+		<h1><font size="10em">Uutiset</font></h1>
+									<div id="napit">
+			<button id="taaksepäin" onclick="taaksepäinfunktio()">Taaksepäin</button>
+			<button id="jatkakaa" onclick="jatka()">Pysäytä</button>
+			<button id="eteenpäin" onclick="eteenpäinfunktio()">Eteenpäin</button>
+			</div>
+			<div id="otsikko"></div>
+			<div id="sisältö"></div>
+			<div id="päivämäärä"></div>
+
 		</article>
 	</section>
 		<footer>
