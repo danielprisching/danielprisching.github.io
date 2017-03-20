@@ -148,4 +148,6 @@ margin-top: 20px;
 }
 #my-video {
   background-color: gray;
+  width: 100%;
+  height: auto;
 }
